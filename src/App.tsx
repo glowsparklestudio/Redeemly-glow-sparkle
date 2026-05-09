@@ -261,12 +261,12 @@ const Carousel3D = ({ images }: { images: string[] }) => {
 
 const HomePage = ({ onRedeem, hasClaimed }: { onRedeem: () => void; hasClaimed: boolean }) => {
   const images = [
-    "/Carousel images/hero_reception.jpg",
-    "/Carousel images/premium_hair_and_styling_studio.jpg",
-    "/Carousel images/makeup_and_styling_lounge.jpg",
-    "/Carousel images/facial_and_treatment_lounge.jpg",
-    "/Carousel images/pedicure_lounge.jpg",
-    "/Carousel images/luxury_lounge.jpg"
+    "/Carousel images/Hero Reception Section.jpg",
+    "/Carousel images/Premium Hair & Styling Studio.jpg",
+    "/Carousel images/Makeup & Styling Lounge.jpg",
+    "/Carousel images/Facial & Treatment Lounge.jpg",
+    "/Carousel images/Pedicure Lounge Section.jpg",
+    "/Carousel images/Luxury Lounge Area.jpg"
   ];
 
   return (
