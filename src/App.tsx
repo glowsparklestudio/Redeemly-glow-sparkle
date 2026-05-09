@@ -250,7 +250,7 @@ const Carousel3D = ({ images }: { images: string[] }) => {
               style={{ transformStyle: "preserve-3d" }}
             >
               <div className="w-full h-full rounded-[calc(1rem-2px)] overflow-hidden bg-stone-900 border border-black/50">
-                <img src={src} className="w-full h-full object-cover" />
+                <img src={src} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
               </div>
             </motion.div>
           );
@@ -261,12 +261,12 @@ const Carousel3D = ({ images }: { images: string[] }) => {
 
 const HomePage = ({ onRedeem, hasClaimed }: { onRedeem: () => void; hasClaimed: boolean }) => {
   const images = [
-    "/Carousel images/Hero Reception Section.jpg",
-    "/Carousel images/Premium Hair & Styling Studio.jpg",
-    "/Carousel images/Makeup & Styling Lounge.jpg",
-    "/Carousel images/Facial & Treatment Lounge.jpg",
-    "/Carousel images/Pedicure Lounge Section.jpg",
-    "/Carousel images/Luxury Lounge Area.jpg"
+    "https://lh3.googleusercontent.com/d/1eSGJ7TM37f2nieLJI0QVuAZ6rHci3BGy",
+    "https://lh3.googleusercontent.com/d/10pFIuPv9w7xkn1e81C0moYQU08HcJ7Gv",
+    "https://lh3.googleusercontent.com/d/1DIZ0zDHfRih6wdohDWcVCYy7394YJF2c",
+    "https://lh3.googleusercontent.com/d/1Dhf7AatqknFUMc4kwGDpRGhc-i2YwcIF",
+    "https://lh3.googleusercontent.com/d/1fT248cSVMtne18xCoq-0Maw6dQmXrjdy",
+    "https://lh3.googleusercontent.com/d/1uZcPT17KrStfZkoHSIYssm_POxzNI7zX"
   ];
 
   return (
